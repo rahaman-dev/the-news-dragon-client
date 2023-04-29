@@ -3,7 +3,9 @@ import React from "react";
 const Footer = () => {
   return (
     <div>
-      <h5 className="text-center">copy right all several</h5>
+      <p className="text-center">
+        Copyright © [2023] [The News Dragon]. All rights reserved.
+      </p>
     </div>
   );
 };
