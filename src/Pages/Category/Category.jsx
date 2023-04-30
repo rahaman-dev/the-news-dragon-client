@@ -9,9 +9,10 @@ const Category = () => {
 
   return (
     <div style={{ marginTop: "50px" }}>
-      {loadData.map((news, idx) => (
-        <NewsCart key={idx} news={news}></NewsCart>
-      ))}
+      {loadData &&
+        loadData.map((news, idx) => (
+          <NewsCart key={idx} news={news}></NewsCart>
+        ))}
     </div>
   );
 };
